@@ -1,0 +1,33 @@
+.services{
+    position: relative;
+    height: max-content;
+    min-height: 703px;
+    background-color: #ddebfd;
+}
+
+.services_container{
+    position: absolute;
+    top: 120px;
+    left: 17%;
+    margin: 0 auto;
+    padding-bottom: 120px;
+    width: 60%;
+    height: max-content;
+    max-width: 1200px;
+}
+
+.services_title{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+    color: #111111;
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+}

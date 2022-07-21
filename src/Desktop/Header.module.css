@@ -1,0 +1,21 @@
+.header{
+    position: fixed;
+    width: 100vw;
+    height: 95px;
+    background: #67AEFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_logo{
+    width: 242px;
+    height: 59px;
+    left: 375px;
+    top: 18px;
+    z-index: 999;
+}
+
+.header_nav{
+
+}

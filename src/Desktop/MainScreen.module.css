@@ -1,0 +1,97 @@
+.main_screen{
+    position: relative;
+    padding-top: 95px;
+    height: 861px;
+}
+
+
+.elipse_big{
+    position: absolute;
+    right: 0;
+    top: 16.4%;
+    width: 32%;
+    height: 50.7%;
+
+}
+
+.elipse_small{
+    position: absolute;
+    width: 8%;
+    height: 17%;
+    left: -2px;
+    top: 59%;
+}
+
+.element{
+    position: absolute;
+    width: 9%;
+    height: 6%;
+    top: 65%;
+    left: 3%;
+}
+
+.cart_block{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 171px 15px 0 15px;
+}
+
+.cart{
+    position: absolute;
+    height: 56.7%;
+    width: 78%;
+    right: 9%;
+    top: 19%;
+}
+
+.cart_text_block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+
+.cart_text_block h2{
+    margin: 0 0 20px 0;
+    width: 50%;
+    max-width: 700px;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #484848;
+}
+
+.cart_text_block p{
+    width: 45%;
+    max-width: 430px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000;
+}
+
+.cart_text_block button{
+    margin-top: 58px;
+    width: 270px;
+    height: 60px;
+    background: #75E169;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.cart_text_block button:hover {
+    border: 2px solid #67AEFC;
+}
+
+.cart_text_block button:active {
+    background: #67AEFC;
+}
